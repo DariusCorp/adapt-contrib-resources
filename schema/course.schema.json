@@ -23,7 +23,7 @@
                   "properties": {
                     "ariaRegion": {
                       "type": "string",
-                      "title": "Resources: ARIA region",
+                      "title": "Resurse: Regiune ARIA",
                       "default": "",
                       "_adapt": {
                         "translatable": true
@@ -31,8 +31,8 @@
                     },
                     "resources": {
                       "type": "string",
-                      "title": "Resources",
-                      "default": "Additional resources.",
+                      "title": "Resurse",
+                      "default": "Resurse suplimentare.",
                       "_adapt": {
                         "translatable": true
                       }
@@ -53,84 +53,84 @@
           "properties": {
             "_isEnabled": {
               "type": "boolean",
-              "title": "Add resource links to the drawer",
-              "description": "Controls whether the Resources extension is enabled or disabled",
+              "title": "Adaugă linkuri de resurse în sertar",
+              "description": "Controlează dacă extensia Resurse este activată sau dezactivată",
               "default": true
             },
             "_drawerOrder": {
               "type": "number",
-              "title": "Index position in the drawer",
-              "description": "The order in which this extension should appear as a drawer item",
+              "title": "Poziția în sertar",
+              "description": "Ordinea în care această extensie ar trebui să apară ca element în sertar",
               "default": 0
             },
             "title": {
               "type": "string",
-              "title": "Title",
-              "default": "Resources",
-              "description": "The title for the resources button which displays when more than one extension is using the drawer.",
+              "title": "Titlu",
+              "default": "Resurse",
+              "description": "Titlul pentru butonul de resurse care se afișează atunci când mai multe extensii utilizează sertarul.",
               "_adapt": {
                 "translatable": true
               }
             },
             "description": {
               "type": "string",
-              "title": "Description",
-              "default": "Select here to view resources for this course",
-              "description": "The description text for the resources button which displays when more than one extension is using the drawer.",
+              "title": "Descriere",
+              "default": "Selectați aici pentru a vizualiza resursele acestui curs",
+              "description": "Textul descriptiv pentru butonul de resurse care se afișează atunci când mai multe extensii utilizează sertarul.",
               "_adapt": {
                 "translatable": true
               }
             },
             "displayTitle": {
               "type": "string",
-              "title": "Display title",
+              "title": "Titlu afișat",
               "default": "",
-              "description": "The title for the resources which displays at the top of the resources drawer.",
+              "description": "Titlul pentru resurse care se afișează în partea de sus a sertarului de resurse.",
               "_adapt": {
                 "translatable": true
               }
             },
             "body": {
               "type": "string",
-              "title": "Body",
+              "title": "Corp",
               "default": "",
-              "description": "The body text for the resources which displays at the top of the resources drawer.",
+              "description": "Textul corpului pentru resurse care se afișează în partea de sus a sertarului de resurse.",
               "_adapt": {
                 "translatable": true
               }
             },
             "instruction": {
               "type": "string",
-              "title": "Instruction",
+              "title": "Instrucțiune",
               "default": "",
-              "description": "The instruction text for the resources which displays at the top of the resources drawer.",
+              "description": "Textul de instrucțiuni pentru resurse care se afișează în partea de sus a sertarului de resurse.",
               "_adapt": {
                 "translatable": true
               }
             },
             "_enableFilters": {
               "type": "boolean",
-              "title": "Enable filter buttons",
+              "title": "Activează butoanele de filtrare",
               "default": true,
-              "description": "Turns the filter buttons on and off. Note that the filter buttons will be automatically disabled if all resource items have the same Type value."
+              "description": "Activează sau dezactivează butoanele de filtrare. Rețineți că butoanele de filtrare vor fi dezactivate automat dacă toate elementele de resurse au aceeași valoare pentru Tip."
             },
             "_filterButtons": {
               "type": "object",
-              "title": "Filter buttons",
+              "title": "Butoane de filtrare",
               "default": {},
               "properties": {
                 "all": {
                   "type": "string",
-                  "title": "All",
-                  "default": "All",
+                  "title": "Toate",
+                  "default": "Toate",
                   "_adapt": {
                     "translatable": true
                   }
                 },
                 "document": {
                   "type": "string",
-                  "title": "Documents",
-                  "default": "Documents",
+                  "title": "Documente",
+                  "default": "Documente",
                   "_adapt": {
                     "translatable": true
                   }
@@ -145,88 +145,88 @@
                 },
                 "link": {
                   "type": "string",
-                  "title": "Links",
-                  "default": "Links",
+                  "title": "Linkuri",
+                  "default": "Linkuri",
                   "_adapt": {
                     "translatable": true
                   }
                 },
                 "custom1": {
                   "type": "string",
-                  "title": "Custom type 1",
-                  "default": "Custom type 1",
+                  "title": "Tip personalizat 1",
+                  "default": "Tip personalizat 1",
                   "_adapt": {
                     "translatable": true
                   }
                 },
                 "custom2": {
                   "type": "string",
-                  "title": "Custom type 2",
-                  "default": "Custom type 2",
+                  "title": "Tip personalizat 2",
+                  "default": "Tip personalizat 2",
                   "_adapt": {
                     "translatable": true
                   }
                 },
                 "custom3": {
                   "type": "string",
-                  "title": "Custom type 3",
-                  "default": "Custom type 3",
+                  "title": "Tip personalizat 3",
+                  "default": "Tip personalizat 3",
                   "_adapt": {
                     "translatable": true
                   }
                 },
                 "custom4": {
                   "type": "string",
-                  "title": "Custom type 4",
-                  "default": "Custom type 4",
+                  "title": "Tip personalizat 4",
+                  "default": "Tip personalizat 4",
                   "_adapt": {
                     "translatable": true
                   }
                 },
                 "custom5": {
                   "type": "string",
-                  "title": "Custom type 5",
-                  "default": "Custom type 5",
+                  "title": "Tip personalizat 5",
+                  "default": "Tip personalizat 5",
                   "_adapt": {
                     "translatable": true
                   }
                 },
                 "custom6": {
                   "type": "string",
-                  "title": "Custom type 6",
-                  "default": "Custom type 6",
+                  "title": "Tip personalizat 6",
+                  "default": "Tip personalizat 6",
                   "_adapt": {
                     "translatable": true
                   }
                 },
                 "custom7": {
                   "type": "string",
-                  "title": "Custom type 7",
-                  "default": "Custom type 7",
+                  "title": "Tip personalizat 7",
+                  "default": "Tip personalizat 7",
                   "_adapt": {
                     "translatable": true
                   }
                 },
                 "custom8": {
                   "type": "string",
-                  "title": "Custom type 8",
-                  "default": "Custom type 8",
+                  "title": "Tip personalizat 8",
+                  "default": "Tip personalizat 8",
                   "_adapt": {
                     "translatable": true
                   }
                 },
                 "custom9": {
                   "type": "string",
-                  "title": "Custom type 9",
-                  "default": "Custom type 9",
+                  "title": "Tip personalizat 9",
+                  "default": "Tip personalizat 9",
                   "_adapt": {
                     "translatable": true
                   }
                 },
                 "custom10": {
                   "type": "string",
-                  "title": "Custom type 10",
-                  "default": "Custom type 10",
+                  "title": "Tip personalizat 10",
+                  "default": "Tip personalizat 10",
                   "_adapt": {
                     "translatable": true
                   }
@@ -235,21 +235,21 @@
             },
             "_filterAria": {
               "type": "object",
-              "title": "Filter ARIA labels",
+              "title": "Etichete ARIA pentru filtre",
               "default": {},
               "properties": {
                 "allAria": {
                   "type": "string",
-                  "title": "All",
-                  "default": "View all resources",
+                  "title": "Toate",
+                  "default": "Vizualizați toate resursele",
                   "_adapt": {
                     "translatable": true
                   }
                 },
                 "documentAria": {
                   "type": "string",
-                  "title": "Documents",
-                  "default": "View document resources",
+                  "title": "Documente",
+                  "default": "Vizualizați resursele de tip document",
                   "_adapt": {
                     "translatable": true
                   }
@@ -257,95 +257,95 @@
                 "mediaAria": {
                   "type": "string",
                   "title": "Media",
-                  "default": "View media resources",
+                  "default": "Vizualizați resursele media",
                   "_adapt": {
                     "translatable": true
                   }
                 },
                 "linkAria": {
                   "type": "string",
-                  "title": "Links",
-                  "default": "View resource links",
+                  "title": "Linkuri",
+                  "default": "Vizualizați linkurile resurselor",
                   "_adapt": {
                     "translatable": true
                   }
                 },
                 "custom1Aria": {
                   "type": "string",
-                  "title": "Custom type 1",
-                  "default": "View custom type 1 links",
+                  "title": "Tip personalizat 1",
+                  "default": "Vizualizați linkurile de tip personalizat 1",
                   "_adapt": {
                     "translatable": true
                   }
                 },
                 "custom2Aria": {
                   "type": "string",
-                  "title": "Custom type 2",
-                  "default": "View custom type 2 links",
+                  "title": "Tip personalizat 2",
+                  "default": "Vizualizați linkurile de tip personalizat 2",
                   "_adapt": {
                     "translatable": true
                   }
                 },
                 "custom3Aria": {
                   "type": "string",
-                  "title": "Custom type 3",
-                  "default": "View custom type 3 links",
+                  "title": "Tip personalizat 3",
+                  "default": "Vizualizați linkurile de tip personalizat 3",
                   "_adapt": {
                     "translatable": true
                   }
                 },
                 "custom4Aria": {
                   "type": "string",
-                  "title": "Custom type 4",
-                  "default": "View custom type 4 links",
+                  "title": "Tip personalizat 4",
+                  "default": "Vizualizați linkurile de tip personalizat 4",
                   "_adapt": {
                     "translatable": true
                   }
                 },
                 "custom5Aria": {
                   "type": "string",
-                  "title": "Custom type 5",
-                  "default": "View custom type 5 links",
+                  "title": "Tip personalizat 5",
+                  "default": "Vizualizați linkurile de tip personalizat 5",
                   "_adapt": {
                     "translatable": true
                   }
                 },
                 "custom6Aria": {
                   "type": "string",
-                  "title": "Custom type 6",
-                  "default": "View custom type 6 links",
+                  "title": "Tip personalizat 6",
+                  "default": "Vizualizați linkurile de tip personalizat 6",
                   "_adapt": {
                     "translatable": true
                   }
                 },
                 "custom7Aria": {
                   "type": "string",
-                  "title": "Custom type 7",
-                  "default": "View custom type 7 links",
+                  "title": "Tip personalizat 7",
+                  "default": "Vizualizați linkurile de tip personalizat 7",
                   "_adapt": {
                     "translatable": true
                   }
                 },
                 "custom8Aria": {
                   "type": "string",
-                  "title": "Custom type 8",
-                  "default": "View custom type 8 links",
+                  "title": "Tip personalizat 8",
+                  "default": "Vizualizați linkurile de tip personalizat 8",
                   "_adapt": {
                     "translatable": true
                   }
                 },
                 "custom9Aria": {
                   "type": "string",
-                  "title": "Custom type 9",
-                  "default": "View custom type 9 links",
+                  "title": "Tip personalizat 9",
+                  "default": "Vizualizați linkurile de tip personalizat 9",
                   "_adapt": {
                     "translatable": true
                   }
                 },
                 "custom10Aria": {
                   "type": "string",
-                  "title": "Custom type 10",
-                  "default": "View custom type 10 links",
+                  "title": "Tip personalizat 10",
+                  "default": "Vizualizați linkurile de tip personalizat 10",
                   "_adapt": {
                     "translatable": true
                   }
@@ -360,7 +360,7 @@
                 "properties": {
                   "_type": {
                     "type": "string",
-                    "title": "Type",
+                    "title": "Tip",
                     "enum": [
                       "document",
                       "media",
@@ -380,21 +380,21 @@
                   },
                   "_forceDownload": {
                     "type": "boolean",
-                    "title": "Force download",
-                    "description": "Forces the resource to be downloaded rather than opened in the browser. Only supported in browsers that support the 'download' attribute and for resources that are part of the course content/hosted on the same URL",
+                    "title": "Forțați descărcarea",
+                    "description": "Forțează descărcarea resursei mai degrabă decât deschiderea în browser. Acceptat numai în browserele care acceptă atributul 'download' și pentru resursele care fac parte din conținutul cursului/găzduite pe aceeași adresă URL",
                     "default": false
                   },
                   "title": {
                     "type": "string",
-                    "title": "Title",
+                    "title": "Titlu",
                     "_adapt": {
                       "translatable": true
                     }
                   },
                   "filename": {
                     "type": "string",
-                    "title": "Filename",
-                    "description": "Used to set the name of the downloaded file to something different to the source filename. Only supported in browsers that support the 'download' attribute and for resources that are part of the course content/hosted on the same URL. Forces the file to be downloaded regardless of what 'Force download' is set to",
+                    "title": "Nume fișier",
+                    "description": "Folosit pentru a seta numele fișierului descărcat la ceva diferit de numele fișierului sursă. Acceptat numai în browserele care acceptă atributul 'download' și pentru resursele care fac parte din conținutul cursului/găzduite pe aceeași adresă URL. Forțează descărcarea fișierului indiferent de ce este setat 'Forțați descărcarea'",
                     "default": "",
                     "_adapt": {
                       "translatable": true
@@ -402,7 +402,7 @@
                   },
                   "description": {
                     "type": "string",
-                    "title": "Description",
+                    "title": "Descriere",
                     "default": "",
                     "_adapt": {
                       "translatable": true
@@ -410,12 +410,12 @@
                   },
                   "_link": {
                     "type": "string",
-                    "title": "Source",
+                    "title": "Sursă",
                     "_backboneForms": "Asset"
                   },
                   "_isGlobal": {
                     "type": "boolean",
-                    "title": "Is displayed on every page",
+                    "title": "Este afișat pe fiecare pagină",
                     "default": true
                   }
                 }

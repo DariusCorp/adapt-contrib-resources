@@ -15,7 +15,7 @@
     "resources": {
       "type": "string",
       "required": true,
-      "default": "Additional resources.",
+      "default": "Resurse suplimentare.",
       "inputType": "Text",
       "validators": [],
       "translatable": true
@@ -35,44 +35,44 @@
             "_resources": {
               "type": "object",
               "required": false,
-              "legend": "Resources",
+              "legend": "Resurse",
               "properties": {
                 "_isEnabled": {
                   "type": "boolean",
-                  "required":true,
+                  "required": true,
                   "default": true,
-                  "title": "Is enabled",
+                  "title": "Este activat",
                   "inputType": "Checkbox",
                   "validators": [],
-                  "help": "Controls whether the Resources extension is enabled or disabled."
+                  "help": "Controlează dacă extensia Resurse este activată sau dezactivată."
                 },
                 "_drawerOrder": {
                   "type": "number",
                   "required": false,
-                  "title": "Drawer order",
+                  "title": "Ordinea în sertar",
                   "inputType": "Number",
                   "default": 0,
-                  "help": "The order in which this extension should appear as a drawer item",
+                  "help": "Ordinea în care această extensie ar trebui să apară ca element în sertar",
                   "validators": ["number"]
                 },
                 "title": {
                   "type": "string",
-                  "default": "Resources",
+                  "default": "Resurse",
                   "required": true,
                   "title": "",
                   "inputType": "Text",
                   "validators": ["required"],
-                  "help": "The title for the resources button which displays when more than one extension is using the drawer.",
+                  "help": "Titlul pentru butonul de resurse care se afișează atunci când mai multe extensii utilizează sertarul.",
                   "translatable": true
                 },
                 "description": {
                   "type": "string",
-                  "default": "Select here to view resources for this course",
+                  "default": "Selectați aici pentru a vizualiza resursele acestui curs",
                   "required": false,
                   "title": "",
                   "inputType": "Text",
                   "validators": [],
-                  "help": "The description text for the resources button which displays when more than one extension is using the drawer.",
+                  "help": "Textul descriptiv pentru butonul de resurse care se afișează atunci când mai multe extensii utilizează sertarul.",
                   "translatable": true
                 },
                 "displayTitle": {
@@ -82,7 +82,7 @@
                   "title": "",
                   "inputType": "Text",
                   "validators": [],
-                  "help": "The title for the resources which displays at the top of the resources drawer.",
+                  "help": "Titlul pentru resurse care se afișează în partea de sus a sertarului de resurse.",
                   "translatable": true
                 },
                 "body": {
@@ -92,7 +92,7 @@
                   "title": "",
                   "inputType": "Text",
                   "validators": [],
-                  "help": "The body text for the resources which displays at the top of the resources drawer.",
+                  "help": "Textul corpului pentru resurse care se afișează în partea de sus a sertarului de resurse.",
                   "translatable": true
                 },
                 "instruction": {
@@ -102,25 +102,25 @@
                   "title": "",
                   "inputType": "Text",
                   "validators": [],
-                  "help": "The instruction text for the resources which displays at the top of the resources drawer.",
+                  "help": "Textul de instrucțiuni pentru resurse care se afișează în partea de sus a sertarului de resurse.",
                   "translatable": true
                 },
                 "_enableFilters": {
                   "type": "boolean",
-                  "required":true,
+                  "required": true,
                   "default": true,
-                  "title": "Enable filter buttons",
+                  "title": "Activează butoanele de filtrare",
                   "inputType": "Checkbox",
                   "validators": [],
-                  "help": "Turns the filter buttons on and off. Note that the filter buttons will be automatically disabled if all resource items have the same Type value."
+                  "help": "Activează sau dezactivează butoanele de filtrare. Rețineți că butoanele de filtrare vor fi dezactivate automat dacă toate elementele de resurse au aceeași valoare pentru Tip."
                 },
                 "_filterButtons": {
                   "type": "object",
-                  "title": "Filter Buttons",
+                  "title": "Butoane de filtrare",
                   "properties": {
                     "all": {
                       "type": "string",
-                      "default": "All",
+                      "default": "Toate",
                       "title": "",
                       "inputType": "Text",
                       "validators": [],
@@ -128,7 +128,7 @@
                     },
                     "document": {
                       "type": "string",
-                      "default": "Documents",
+                      "default": "Documente",
                       "title": "",
                       "inputType": "Text",
                       "validators": [],
@@ -144,7 +144,7 @@
                     },
                     "link": {
                       "type": "string",
-                      "default": "Links",
+                      "default": "Linkuri",
                       "title": "",
                       "inputType": "Text",
                       "validators": [],
@@ -152,80 +152,80 @@
                     },
                     "custom1": {
                       "type": "string",
-                      "default": "Custom type 1",
-                      "title": "Custom type 1",
+                      "default": "Tip personalizat 1",
+                      "title": "Tip personalizat 1",
                       "inputType": "Text",
                       "validators": [],
                       "translatable": true
                     },
                     "custom2": {
                       "type": "string",
-                      "default": "Custom type 2",
-                      "title": "Custom type 2",
+                      "default": "Tip personalizat 2",
+                      "title": "Tip personalizat 2",
                       "inputType": "Text",
                       "validators": [],
                       "translatable": true
                     },
                     "custom3": {
                       "type": "string",
-                      "default": "Custom type 3",
-                      "title": "Custom type 3",
+                      "default": "Tip personalizat 3",
+                      "title": "Tip personalizat 3",
                       "inputType": "Text",
                       "validators": [],
                       "translatable": true
                     },
                     "custom4": {
                       "type": "string",
-                      "default": "Custom type 4",
-                      "title": "Custom type 4",
+                      "default": "Tip personalizat 4",
+                      "title": "Tip personalizat 4",
                       "inputType": "Text",
                       "validators": [],
                       "translatable": true
                     },
                     "custom5": {
                       "type": "string",
-                      "default": "Custom type 5",
-                      "title": "Custom type 5",
+                      "default": "Tip personalizat 5",
+                      "title": "Tip personalizat 5",
                       "inputType": "Text",
                       "validators": [],
                       "translatable": true
                     },
                     "custom6": {
                       "type": "string",
-                      "default": "Custom type 6",
-                      "title": "Custom type 6",
+                      "default": "Tip personalizat 6",
+                      "title": "Tip personalizat 6",
                       "inputType": "Text",
                       "validators": [],
                       "translatable": true
                     },
                     "custom7": {
                       "type": "string",
-                      "default": "Custom type 7",
-                      "title": "Custom type 7",
+                      "default": "Tip personalizat 7",
+                      "title": "Tip personalizat 7",
                       "inputType": "Text",
                       "validators": [],
                       "translatable": true
                     },
                     "custom8": {
                       "type": "string",
-                      "default": "Custom type 8",
-                      "title": "Custom type 8",
+                      "default": "Tip personalizat 8",
+                      "title": "Tip personalizat 8",
                       "inputType": "Text",
                       "validators": [],
                       "translatable": true
                     },
                     "custom9": {
                       "type": "string",
-                      "default": "Custom type 9",
-                      "title": "Custom type 9",
+                      "default": "Tip personalizat 9",
+                      "title": "Tip personalizat 9",
                       "inputType": "Text",
                       "validators": [],
                       "translatable": true
                     },
                     "custom10": {
                       "type": "string",
-                      "default": "Custom type 10",
-                      "title": "Custom type 10",
+                      "default": "Tip personalizat 10",
+                      "title": "Tip personalizat 10",
                       "inputType": "Text",
                       "validators": [],
                       "translatable": true
@@ -234,27 +234,27 @@
                 },
                 "_filterAria": {
                   "type": "object",
-                  "title": "Aria Labels",
+                  "title": "Etichete ARIA",
                   "properties": {
                     "allAria": {
                       "type": "string",
-                      "default": "View all resources",
-                      "title": "All",
+                      "default": "Vizualizați toate resursele",
+                      "title": "Toate",
                       "inputType": "Text",
                       "validators": [],
                       "translatable": true
                     },
                     "documentAria": {
                       "type": "string",
-                      "default": "View document resources",
-                      "title": "Documents",
+                      "default": "Vizualizați resursele de tip document",
+                      "title": "Documente",
                       "inputType": "Text",
                       "validators": [],
                       "translatable": true
                     },
                     "mediaAria": {
                       "type": "string",
-                      "default": "View media resources",
+                      "default": "Vizualizați resursele media",
                       "title": "Media",
                       "inputType": "Text",
                       "validators": [],
@@ -262,88 +262,88 @@
                     },
                     "linkAria": {
                       "type": "string",
-                      "default": "View resource links",
-                      "title": "Links",
+                      "default": "Vizualizați linkurile resurselor",
+                      "title": "Linkuri",
                       "inputType": "Text",
                       "validators": [],
                       "translatable": true
                     },
                     "custom1Aria": {
                       "type": "string",
-                      "default": "View custom type 1 links",
-                      "title": "Custom type 1",
+                      "default": "Vizualizați linkurile de tip personalizat 1",
+                      "title": "Tip personalizat 1",
                       "inputType": "Text",
                       "validators": [],
                       "translatable": true
                     },
                     "custom2Aria": {
                       "type": "string",
-                      "default": "View custom type 2 links",
-                      "title": "Custom type 2",
+                      "default": "Vizualizați linkurile de tip personalizat 2",
+                      "title": "Tip personalizat 2",
                       "inputType": "Text",
                       "validators": [],
                       "translatable": true
                     },
                     "custom3Aria": {
                       "type": "string",
-                      "default": "View custom type 3 links",
-                      "title": "Custom type 3",
+                      "default": "Vizualizați linkurile de tip personalizat 3",
+                      "title": "Tip personalizat 3",
                       "inputType": "Text",
                       "validators": [],
                       "translatable": true
                     },
                     "custom4Aria": {
                       "type": "string",
-                      "default": "View custom type 4 links",
-                      "title": "Custom type 4",
+                      "default": "Vizualizați linkurile de tip personalizat 4",
+                      "title": "Tip personalizat 4",
                       "inputType": "Text",
                       "validators": [],
                       "translatable": true
                     },
                     "custom5Aria": {
                       "type": "string",
-                      "default": "View custom type 5 links",
-                      "title": "Custom type 5",
+                      "default": "Vizualizați linkurile de tip personalizat 5",
+                      "title": "Tip personalizat 5",
                       "inputType": "Text",
                       "validators": [],
                       "translatable": true
                     },
                     "custom6Aria": {
                       "type": "string",
-                      "default": "View custom type 6 links",
-                      "title": "Custom type 6",
+                      "default": "Vizualizați linkurile de tip personalizat 6",
+                      "title": "Tip personalizat 6",
                       "inputType": "Text",
                       "validators": [],
                       "translatable": true
                     },
                     "custom7Aria": {
                       "type": "string",
-                      "default": "View custom type 7 links",
-                      "title": "Custom type 7",
+                      "default": "Vizualizați linkurile de tip personalizat 7",
+                      "title": "Tip personalizat 7",
                       "inputType": "Text",
                       "validators": [],
                       "translatable": true
                     },
                     "custom8Aria": {
                       "type": "string",
-                      "default": "View custom type 8 links",
-                      "title": "Custom type 1",
+                      "default": "Vizualizați linkurile de tip personalizat 8",
+                      "title": "Tip personalizat 8",
                       "inputType": "Text",
                       "validators": [],
                       "translatable": true
                     },
                     "custom9Aria": {
                       "type": "string",
-                      "default": "View custom type 9 links",
-                      "title": "Custom type 9",
+                      "default": "Vizualizați linkurile de tip personalizat 9",
+                      "title": "Tip personalizat 9",
                       "inputType": "Text",
                       "validators": [],
                       "translatable": true
                     },
                     "custom10Aria": {
                       "type": "string",
-                      "default": "View custom type 10 links",
-                      "title": "Custom type 10",
+                      "default": "Vizualizați linkurile de tip personalizat 10",
+                      "title": "Tip personalizat 10",
                       "inputType": "Text",
                       "validators": [],
                       "translatable": true
@@ -353,31 +353,31 @@
                 "_resourcesItems": {
                   "type": "array",
                   "required": false,
-                  "title": "Resources Items",
+                  "title": "Elemente resurse",
                   "items": {
                     "type": "object",
                     "required": false,
-                    "title": "Items",
+                    "title": "Elemente",
                     "properties": {
                       "_type": {
                         "type": "string",
                         "required": true,
-                        "title": "Type",
-                        "inputType": { "type": "Select", "options": ["document", "media", "link", "custom1", "custom2", "custom3", "custom4", "custom5", "custom6", "custom7", "custom8", "custom9", "custom10"]},
+                        "title": "Tip",
+                        "inputType": { "type": "Select", "options": ["document", "media", "link", "custom1", "custom2", "custom3", "custom4", "custom5", "custom6", "custom7", "custom8", "custom9", "custom10"] },
                         "validators": ["required"]
                       },
                       "_forceDownload": {
                         "type": "boolean",
                         "default": false,
-                        "title": "Force download",
+                        "title": "Forțează descărcarea",
                         "inputType": "Checkbox",
                         "validators": [],
-                        "help": "Forces the resource to be downloaded rather than opened in the browser. Only supported in browsers that support the 'download' attribute and for resources that are part of the course content/hosted on the same URL."
+                        "help": "Forțează resursa să fie descărcată în loc să fie deschisă în browser. Este acceptat doar în browserele care acceptă atributul 'download' și pentru resursele care fac parte din conținutul cursului/găzduite pe aceeași adresă URL."
                       },
                       "title": {
                         "type": "string",
                         "required": true,
-                        "title": "Title",
+                        "title": "Titlu",
                         "inputType": "Text",
                         "validators": ["required"],
                         "translatable": true
@@ -385,15 +385,15 @@
                       "filename": {
                         "type": "string",
                         "required": false,
-                        "title": "Filename",
+                        "title": "Nume fișier",
                         "inputType": "Text",
                         "translatable": true,
-                        "help": "Used to set the name of the downloaded file to something different to the source filename. Only supported in browsers that support the 'download' attribute and for resources that are part of the course content/hosted on the same URL. Forces the file to be downloaded regardless of what 'Force download' is set to."
+                        "help": "Utilizat pentru a seta numele fișierului descărcat diferit de numele fișierului sursă. Este acceptat doar în browserele care acceptă atributul 'download' și pentru resursele care fac parte din conținutul cursului/găzduite pe aceeași adresă URL. Forțează fișierul să fie descărcat indiferent de setarea 'Forțează descărcarea'."
                       },
                       "description": {
                         "type": "string",
                         "required": false,
-                        "title": "Description",
+                        "title": "Descriere",
                         "inputType": "Text",
                         "validators": [],
                         "translatable": true
@@ -407,9 +407,9 @@
                       },
                       "_isGlobal": {
                         "type": "boolean",
-                        "required":true,
+                        "required": true,
                         "default": true,
-                        "title": "Is displayed on every page?",
+                        "title": "Este afișat pe fiecare pagină?",
                         "inputType": "Checkbox",
                         "validators": []
                       }
@@ -426,45 +426,45 @@
             "_resources": {
               "type": "object",
               "required": false,
-              "legend": "Resources",
+              "legend": "Resurse",
               "properties": {
                 "_isEnabled": {
                   "type": "boolean",
-                  "required":true,
+                  "required": true,
                   "default": true,
-                  "title": "Is enabled",
+                  "title": "Este activat",
                   "inputType": "Checkbox",
                   "validators": [],
-                  "help": "Controls whether the Resources extension is enabled or disabled."
+                  "help": "Controlează dacă extensia Resurse este activată sau dezactivată."
                 },
                 "_resourcesItems": {
                   "type": "array",
                   "required": false,
-                  "title": "Resources Items",
+                  "title": "Elemente resurse",
                   "items": {
                     "type": "object",
                     "required": false,
-                    "title": "Items",
+                    "title": "Elemente",
                     "properties": {
                       "_type": {
                         "type": "string",
                         "required": true,
-                        "title": "Type",
-                        "inputType": { "type": "Select", "options": ["document", "media", "link"]},
+                        "title": "Tip",
+                        "inputType": { "type": "Select", "options": ["document", "media", "link"] },
                         "validators": ["required"]
                       },
                       "_forceDownload": {
                         "type": "boolean",
                         "default": false,
-                        "title": "Force download",
+                        "title": "Forțează descărcarea",
                         "inputType": "Checkbox",
                         "validators": [],
-                        "help": "Forces the resource to be downloaded rather than opened in the browser. Only supported in browsers that support the 'download' attribute and for resources that are part of the course content/hosted on the same URL."
+                        "help": "Forțează resursa să fie descărcată în loc să fie deschisă în browser. Este acceptat doar în browserele care acceptă atributul 'download' și pentru resursele care fac parte din conținutul cursului/găzduite pe aceeași adresă URL."
                       },
                       "title": {
                         "type": "string",
                         "required": true,
-                        "title": "Title",
+                        "title": "Titlu",
                         "inputType": "Text",
                         "validators": ["required"],
                         "translatable": true
@@ -472,15 +472,15 @@
                       "filename": {
                         "type": "string",
                         "required": false,
-                        "title": "Filename",
+                        "title": "Nume fișier",
                         "inputType": "Text",
                         "translatable": true,
-                        "help": "Used to set the name of the downloaded file to something different to the source filename. Only supported in browsers that support the 'download' attribute and for resources that are part of the course content/hosted on the same URL. Forces the file to be downloaded regardless of what 'Force download' is set to."
+                        "help": "Utilizat pentru a seta numele fișierului descărcat diferit de numele fișierului sursă. Este acceptat doar în browserele care acceptă atributul 'download' și pentru resursele care fac parte din conținutul cursului/găzduite pe aceeași adresă URL. Forțează fișierul să fie descărcat indiferent de setarea 'Forțează descărcarea'."
                       },
                       "description": {
                         "type": "string",
                         "required": false,
-                        "title": "Description",
+                        "title": "Descriere",
                         "inputType": "Text",
                         "validators": [],
                         "translatable": true

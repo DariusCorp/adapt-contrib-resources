@@ -10,24 +10,24 @@
       "properties": {
         "_resources": {
           "type": "object",
-          "title": "Resources",
+          "title": "Resurse",
           "default": {},
           "properties": {
             "_isEnabled": {
               "type": "boolean",
-              "title": "Add resource links to the drawer",
-              "description": "Controls whether the Resources extension is enabled or disabled",
+              "title": "Adaugă linkuri de resurse în sertar",
+              "description": "Controlează dacă extensia Resurse este activată sau dezactivată",
               "default": true
             },
             "_resourcesItems": {
               "type": "array",
-              "title": "Items",
+              "title": "Elemente",
               "items": {
                 "type": "object",
                 "properties": {
                   "_type": {
                     "type": "string",
-                    "title": "Type",
+                    "title": "Tip",
                     "enum": [
                       "document",
                       "media",
@@ -37,21 +37,21 @@
                   },
                   "_forceDownload": {
                     "type": "boolean",
-                    "title": "Force download",
-                    "description": "Forces the resource to be downloaded rather than opened in the browser. Only supported in browsers that support the 'download' attribute and for resources that are part of the course content/hosted on the same URL",
+                    "title": "Forțează descărcarea",
+                    "description": "Forțează resursa să fie descărcată în loc să fie deschisă în browser. Este acceptat doar în browserele care acceptă atributul 'download' și pentru resursele care fac parte din conținutul cursului/găzduite pe aceeași adresă URL",
                     "default": false
                   },
                   "title": {
                     "type": "string",
-                    "title": "Title",
+                    "title": "Titlu",
                     "_adapt": {
                       "translatable": true
                     }
                   },
                   "filename": {
                     "type": "string",
-                    "title": "Filename",
-                    "description": "Used to set the name of the downloaded file to something different to the source filename. Only supported in browsers that support the 'download' attribute and for resources that are part of the course content/hosted on the same URL. Forces the file to be downloaded regardless of what 'Force download' is set to",
+                    "title": "Nume fișier",
+                    "description": "Utilizat pentru a seta numele fișierului descărcat diferit de numele fișierului sursă. Este acceptat doar în browserele care acceptă atributul 'download' și pentru resursele care fac parte din conținutul cursului/găzduite pe aceeași adresă URL. Forțează fișierul să fie descărcat indiferent de setarea 'Forțează descărcarea'.",
                     "default": "",
                     "_adapt": {
                       "translatable": true
@@ -59,7 +59,7 @@
                   },
                   "description": {
                     "type": "string",
-                    "title": "Description",
+                    "title": "Descriere",
                     "default": "",
                     "_adapt": {
                       "translatable": true
@@ -67,7 +67,7 @@
                   },
                   "_link": {
                     "type": "string",
-                    "title": "Source",
+                    "title": "Sursă",
                     "_backboneForms": "Asset"
                   }
                 }
