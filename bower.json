@@ -1,12 +1,12 @@
 {
   "name": "adapt-contrib-resources",
-  "version": "5.5.4",
+  "version": "5.5.5",
   "framework": ">=5.19.1",
   "homepage": "https://github.com/adaptlearning/adapt-contrib-resources",
   "bugs": "https://github.com/adaptlearning/adapt-contrib-resources/issues",
   "extension": "resources",
-  "displayName": "Resources",
-  "description": "An extension to allow learners to view resources",
+  "displayName": "Resurse",
+  "description": "O extensie pentru a permite cursanților să vizualizeze resursele",
   "main": "/js/adapt-contrib-resources.js",
   "keywords": [
     "adapt-plugin",
